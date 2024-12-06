@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4414ca;
+    padding: 10px;
+  }
+
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  }

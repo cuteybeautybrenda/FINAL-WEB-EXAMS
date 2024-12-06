@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CARD LAYOUT</title>
+  <style>
+    .navbar {
+      display: flex;
+      justify-content: space-around;
+      background-color: #4414ca;
+      padding: 10px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+    }
+
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card-container">
+        <div class="card">CARD 1</div>
+        <div class="card">CARD 2</div>
+        <div class="card">CARD 3</div>
+      </div>
+    </body>
+    </html>
+    
